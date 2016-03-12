@@ -232,7 +232,7 @@ unittest([
     testInferLiteral,
 ])
 
-def main(=> currentProcess, => makeFileResource, => makeStdOut,
+def main(argv, => currentProcess, => makeFileResource, => makeStdOut,
          => unsealException) as DeepFrozen:
     def path := currentProcess.getArguments().last()
 
