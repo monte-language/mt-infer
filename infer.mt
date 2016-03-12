@@ -4,7 +4,7 @@ import "lib/tubes" =~ [
 ]
 import "lib/monte/monte_parser" =~ [=> parseModule :DeepFrozen]
 import "lib/monte/monte_lexer" =~  [=> makeMonteLexer :DeepFrozen]
-import "lib/uKanren" =~ [
+import "uKanren" =~ [
     => iterGoal :DeepFrozen,
     => satisfiable :DeepFrozen,
     => unifyGoal :DeepFrozen,

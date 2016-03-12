@@ -2,5 +2,9 @@
     "name": "infer",
     "paths": ["."],
     "entrypoint": "infer",
-    "dependencies": {}
+    "dependencies": {
+        "uKanren": {
+            "url": "https://github.com/monte-language/mt-uKanren"
+        }
+    }
 }
