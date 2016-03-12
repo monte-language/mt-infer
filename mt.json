@@ -1,0 +1,6 @@
+{
+    "name": "infer",
+    "paths": ["."],
+    "entrypoint": "infer",
+    "dependencies": {}
+}
